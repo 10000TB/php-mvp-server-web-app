@@ -1,0 +1,1958 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Lato:400,300italic,400italic,700,300,100italic,100,700italic,900,900italic);
+
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: rgba(0,0,0,0.03);
+}
+
+.topControlContainer{
+	width: 100%;
+	height: 42px;
+	position: fixed;
+	margin: 0 auto;
+	background-color:rgba(0,49,107,1); 
+	padding-left:0px;
+	padding-right: 0px;
+	padding-top: 0px; 
+	z-index:998; 
+}
+
+.topControlContainer .controlsWrapper{
+	width: 1000px;
+	height: 42px;
+	margin: 0 auto;
+	background: transparent;
+	z-index: 999;
+}
+
+
+/*********************             Site logo Start        ***************************/
+.topControlContainer .siteLogo{
+	margin-right: 10px;
+	position: relative;
+	top: 2px;
+	left: 40px;
+	width: 60px;
+	height: 30px;
+	margin-right: 20px;
+	float: left;
+	background-color: transparent;
+	/*z-index: -;*/
+}
+
+
+.topControlContainer .siteLogo #siteLogo{
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 4px;
+	display: inline-block;
+	white-space: nowrap;
+	text-indent: 300%;
+	overflow: hidden;	
+
+	/*background-image: url(https://chywawa.com/imgs/chywawa-newIcon-white.png);*/
+	background-image: url(https://chywawa.com/imgs/siteLogos/chywawa-mascot-3.0-base-filled-white.png);
+	background-repeat: no-repeat;
+
+
+	background-size: 25px;
+}
+
+.topControlContainer .siteLogo  #siteLogo:hover{
+	background-image: url(https://chywawa.com/imgs/siteLogos/chywawa-mascot-3.0-base-filled-white.png);
+}
+/*********************             Site logo END       ***************************/
+
+
+
+
+/*********************             Search Box   START      ***************************/
+.topControlContainer .controlsWrapper .searchWrapper{
+	width: 500px;
+	height: 42px;
+	float: left;
+	margin-left: 0px;
+	background-color: transparent;
+}
+
+.topControlContainer .controlsWrapper .searchWrapper #searchForm{
+	background-color: transparent;
+	width: 500px;
+	height: 25.5px;
+	margin: 9px auto;
+	vertical-align: center;
+}
+
+
+
+.topControlContainer .controlsWrapper .searchWrapper .searchStringBoxContainer{
+	position: relative;
+	width: 450px;
+	height: 21.5px;
+	background-color: white;
+	float: left;
+	border-radius:5px; 
+}
+
+.topControlContainer .controlsWrapper .searchWrapper .searchStringBoxContainer #searchStringBox{
+	position: relative;
+	width: 439px;
+	height: 19.5px;
+	margin: 0px 0px 0px 0px;
+	padding: 2px 5px 2px 5px;
+	border-radius:5px;
+	font-size: 18px;
+	z-index: 2;
+
+	-webkit-transition: all 0.40s ease-in-out;
+  	-moz-transition: all 0.40s ease-in-out;
+  	-ms-transition: all 0.40s ease-in-out;
+  	-o-transition: all 0.40s ease-in-out;
+
+
+  	border: 1px solid rgba(0,0,0,0.2);
+  	  	outline: none;
+}
+
+.topControlContainer .controlsWrapper .searchWrapper .searchStringBoxContainer #searchStringBox:focus{
+	border: 1px solid rgba(0,49,107,1);
+	box-shadow: 0 0 2px rgba(0,49,107,1);
+}
+/*********************             Search Box  END        ***************************/
+
+.header-navi-home #nav-home a{
+	color: white;
+	text-decoration: none; 
+}
+
+
+
+/*********************************************************************/
+/*   ChyWaWa Now*/
+/*********************************************************************/
+.ChyWaWaNow a{
+	/*background-color: red;*/
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding-right: 0px;
+	text-indent: 600%;
+	overflow: hidden;
+
+	background-image: url('https://chywawa.com/imgs/ChyWaWaNowUnHover.png');
+	background-repeat: no-repeat;
+	background-size:80px;
+}
+
+.ChyWaWaNow a:hover{
+	background-image: url('https://chywawa.com/imgs/ChyWaWaNowHover.png');
+}
+
+/*********************             Search Button    START     ***************************/
+
+
+.topControlContainer .controlsWrapper .searchWrapper #searchButton{
+	position: relative;
+	top: -3px;
+	left: 7px;
+	height: 31px;
+	width: 50px;
+	border-radius: 5px;
+	background-color: rgba(0,49,107,1);
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	float: right;
+	border-width: 0;
+	border: 1 0 1 1;
+	z-index: 1;
+
+
+	-webkit-transition: all 0.20s ease-in-out;
+  	-moz-transition: all 0.20s ease-in-out;
+  	-ms-transition: all 0.20s ease-in-out;
+  	-o-transition: all 0.20s ease-in-out;
+}
+
+.topControlContainer .controlsWrapper .searchWrapper #searchButtonLabel{
+	position: relative;
+	/*background-color: red;*/
+	background-image: url('https://chywawa.com/imgs/SearchIconUnHover.png');
+	background-size: 20px 20px;
+	background-position: 13px 4px;
+	background-repeat: no-repeat;
+	/*background-origin: 0 0;*/
+	display: inline-block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	top:2px;
+	/*border-width: 1px;*/
+/*	border-top: 1px;
+	border-right: 1px;
+	border-bottom: 1px;*/
+	/*border-color: rgba(123,234,234,0.6);*/
+	/*background-position: */
+	width: 50px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	z-index: 2;
+}
+
+.topControlContainer .controlsWrapper .searchWrapper #searchButton:hover{
+	background-color: rgba(0,75,171,1);
+}/*********************             Search Button    END     ***************************/
+
+
+
+
+/*********************             User Wrapper (login, sign up, shortcuts)     ***************************/
+.topControlContainer .controlsWrapper .userWrapper{
+	width: 195px;
+	height: 42px;
+	float: right;
+	padding-right: 0px;
+	background-color: transparent;
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userUpload{
+	width: 71px;
+	height: 42px;
+	/*display: inline-block;*/
+	border-radius: 5px;
+	float: right;
+	background-color: transparent;
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userUpload #uploadText{
+	background-color:transparent;
+	display: block;
+	text-indent: 100%;
+	overflow: hidden;
+	height: 100%;
+
+
+	background-image: url('https://chywawa.com/imgs/uploadUnHover.png');
+	background-size: 66px;
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userUpload #uploadText:hover{
+		background-image: url('https://chywawa.com/imgs/uploadHover.png');
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup{
+	width: 115px;
+	height: 42px;
+	padding-top: 3px;
+	/*display: inline-block;*/
+	/*margin-right: 0px;
+	margin-left: 0px;
+	*/
+	float: right;
+	/*padding-right: 0px;*/
+	/*background-color: blue;*/
+	overflow: hidden;
+}
+
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userLogin{
+	position: relative;
+	top: 2.5px;
+	width: 70px;
+	height: 55px;
+	top: -10px;
+	/*background-color: black;*/
+	/*display: flex;*/
+	justify-content: center;
+	float: right;
+	border-radius: 0px;
+	display: table-cell;
+	vertical-align: middle;
+	/*border-radius: 30px;*/
+}
+
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userLogin #circleUserProfileImage{
+	width: 60px;
+	height: 55px;
+	margin:  auto;
+
+	/*align-self=center;*/
+	display: inline-block;
+	border-radius: 30px;
+	/*background-color: rgba(0,0,0,0.2);*/
+	background-color: white;
+	/*background-image: url('https://chywawa.com/imgs/loginIcon.png');*/
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userLogin #userLoginText{
+	/*height: 100%;*/
+	position: relative;
+	height: 100%;
+	width: 70px;
+
+	text-indent: 200%;
+	/*overflow: hidden;*/
+	/*background-color: red;*/
+	display: block;
+	color: white;
+
+	background-image: url('https://chywawa.com/imgs/loginIconUnHover.png');
+	background-repeat: no-repeat;
+	background-size: 66px;
+	background-position: 0px 11.5px;
+
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userLogin #userLoginText:hover{
+		background-image: url('https://chywawa.com/imgs/loginIconHover.png');
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userProfile{
+	position: relative;
+	top:2.5px;
+	width: 70px;
+	height: 55px;
+	background-color: white;
+	float: right;
+	/*display: inline-block;*/
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userProfile #userProfileText{
+	/*height: 100%;*/
+	position: relative;
+	height: 100%;
+	width: 70px;
+
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	/*background-color: red;*/
+	display: block;
+	color: white;
+
+	background-image: url('https://chywawa.com/imgs/signUpIconUnHover.png');
+	background-repeat: no-repeat;
+	background-size: 66px;
+	background-position: 0px 11.5px;
+}
+
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userSignup{
+	position: relative;
+	top:2.5px;
+	width: 70px;
+	height: 55px;
+	background-color: white;
+	float: right;
+	/*display: inline-block;*/
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userSignup #userSignUpText{
+	/*height: 100%;*/
+	position: relative;
+	height: 100%;
+	width: 70px;
+
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	/*background-color: red;*/
+	display: block;
+	color: white;
+
+	background-image: url('https://chywawa.com/imgs/signUpIconUnHover.png');
+	background-repeat: no-repeat;
+	background-size: 66px;
+	background-position: 0px 11.5px;
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userSignup #userSignUpText:hover{
+	background-image: url('https://chywawa.com/imgs/signUpIconHover.png');
+}
+
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userSignup #userSignUpText a{
+	text-decoration: none;
+	color: black;
+}
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userSignup #userSignUpText a:active{
+	text-decoration: none;
+	color: rgba(0,49,107,1);
+}
+.topControlContainer .controlsWrapper .userWrapper .userLoginSignup .userSignup #userSignUpText a:hover{
+	text-decoration: none;
+	color: rgba(0,75,171,1);
+}
+/*********************             User Wrapper END     ***************************/
+
+
+
+#uploadToolsWrapper{
+	position: relative;
+	top: 60px;
+	width: 1000px;
+	height: 0px;
+	margin: 0 auto;
+	/*background-color: red;*/
+	overflow: hidden;
+	border: 0px solid red;
+}
+
+
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+
+/*********************************  top tab bar wrapper***********************************/
+.TopTabs{
+	position: fixed;
+	width: 100%;
+	height: 34px;
+	top:60px;
+	/*background-color: rgba(0,0,0,0.0);*/
+	background-color: white;
+	border-bottom: 1px solid rgba(0,49,107,1);
+	z-index: 2;
+}
+
+.topTabsWrapper{
+	position: absolute;
+	width: 100%;
+	height: 34px;
+	top:0px;
+	/*background-color: rgba(0,0,0,0.0);*/
+	background-color: white;
+	z-index: 2;
+}
+
+.topTabsWrapper2{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	top:34px;
+	opacity: 0;
+	/*top: 35px;*/
+	/*background-color: rgba(0,0,0,0.0);*/
+	/*background-color: red;*/
+	background-color: white;
+
+	z-index: 1;
+}
+
+
+.subCategory{
+	width: 1200px;
+		/*width: auto;*/
+	/*height: 25px;*/
+	margin: 6px auto;
+
+	margin-bottom: 3px;
+	/*background-color: red;*/
+}
+
+.subcategorycContainer{
+	width: 100%;
+	height: 25px;
+	padding-left: 3px;
+	z-index: 2;
+}
+
+.hidden{
+	display: none;
+}
+
+.subcategorycContainer a{
+	float: left;
+	display: block;
+	padding: 0px 0px;
+	margin: 6px 8px 0px 0px;
+	/*background-color:red; */
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	text-decoration: none;
+	color: rgba(0,49,107,1);
+
+	overflow: inherit;
+	display: inline-block;
+}
+
+.subcategorycContainer a:hover{
+	border-bottom:2px solid rgba(0,49,107,1); 
+}
+
+.subcategorycContainer a:visited{
+	color: rgba(0,49,107,1);
+}
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+.topTabsWrapper .topTabsContainer{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	/*background-color: rgba(0,49,107,1);*/
+	background-color: white;
+}
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper{
+	width: 200px;
+	height: 50px;
+	margin: 0 0 0 0;
+	float: left;
+	/*background-color: blue;*/
+}
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer{
+	/*width: auto;*/
+	width: 0px;
+	height: 50px;
+	margin: 0 0 0 0;
+	float: left;
+	background-color: black;
+}
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer ul{
+	list-style-type: none;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	background-color: yellow;
+	/*float: left;*/
+/*	width: 100%;*/
+	/*display: inline-block;*/
+	/*margin-top:0px; */
+	padding:0px 0px;
+	font-size: 13px;
+	/*padding-top: 16px;*/
+	/*padding-bottom: 0px;*/
+	/*height: 100%;*/
+	/*width: auto;*/
+	width: 0px;
+	display: block;
+}
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer li{
+	display: inline-block;
+}
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer li:after{
+/*background-color: yellow;*/
+	width: 55px;
+	height: 0px;
+	padding-top: 10px;
+	padding-left: 15px;
+	content: '';
+	/*display: block;*/
+	text-align: center;
+	display: block;
+  	transform:scaleX(0.001);
+  	transition:transform 250ms ease-in-out;
+}
+
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer span{
+/*background-color: violet;*/
+display: block;
+text-align: center;
+color: rgba(0,49,107,1);
+}
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer a{
+text-decoration: none;
+}
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer a:active{
+color: rgba(0,49,107,1);
+}
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer a:hover{
+/*color: rgba(0,75,171,1);*/
+color: red;
+}
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer a:visited{
+/*color: rgba(0,75,171,1);*/
+color: red;
+}
+
+.Deprecated .topTabsWrapper .topTabsContainer .votedContentsWrapper .votedContainer li:hover:after{
+	border-bottom: 5px solid rgba(0,49,107,1);
+	 transform:scaleX(1);
+}
+
+.topTabsWrapper .topTabsContainer .categoriesWrapper{
+	width: 1200px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	float: right;
+	/*background-color: red;*/
+	background-color: white;
+}
+
+.topTabsWrapper .topTabsContainer .categoriesWrapper .categoriesContainer{
+	/*background-color: red;*/
+	height: 100%;
+	width: auto;
+	float: left;
+	display: inline-block;
+}
+
+.topTabsWrapper .topTabsContainer .categoriesWrapper .categoriesContainer ul{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom:5px; 
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.topTabsWrapper .topTabsContainer .categoriesWrapper .categoriesContainer li{
+	display: inline-block;
+	margin:0 5px; 
+	padding-left:0px;
+	padding-right: 0px;
+}
+
+.topTabsWrapper .topTabsContainer .categoriesWrapper .categoriesContainer a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+.topTabsWrapper .topTabsContainer .categoriesWrapper .categoriesContainer span{
+	color: black;
+	font-family: Arial, sans-serif;
+	width: 100%;
+	font-size: 13px;
+	font-weight: 500;
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px; 
+	text-align: center;
+	/*background-color: red;*/
+	display: block;
+}
+
+
+.TextActive{
+	color: rgba(1,113,255,1) !important;
+}
+
+.topTabsWrapper .topTabsContainer .categoriesWrapper .categoriesContainer li:after{
+/*background-color: yellow;*/
+width: 30px;
+height: 0px;
+padding-top: 5px;
+padding-left: 15px;
+content: '';
+display: block;
+text-align: center;
+  	transform:scaleX(0.001);
+  	transition:transform 250ms ease-in-out;
+}
+
+.topTabsWrapper .topTabsContainer .categoriesWrapper .categoriesContainer li:hover:after{
+	border-bottom: 5px solid rgba(0,49,107,1);
+	 transform:scaleX(1);
+}
+
+/*.TopVotesContainer .subCategoryContainer{
+	position: relative;
+	height: 60px;
+	width: 1000px;
+	background-color: red;
+}*/
+
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+.TopVotesContainer{
+	position: relative;
+	top: 100px;
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.SectionSplit4{
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	margin:0 auto;
+}
+
+.SectionSplit3{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	margin:0 auto;
+}
+
+.SectionSplit2{
+	width: 100%;
+	height: 20px;
+	background-color: white;
+}
+
+.SectionSplit1{
+	width: 100%;
+	height: 10px ;
+	background-color: white;
+}
+
+.home-channel-collection-titleBox{
+	width: 1200px;
+	height: 50px;
+}
+
+.home-channel-collection-titleBox900{
+	width: 900px;
+	height: 50px;
+	/*background-color: rgba(0,49,107,1);*/
+	background-color: white;
+
+	float: left;
+}
+
+.home-channel-collection-titleBox300{
+	width: 300px;
+	height: 50px;
+	background-color: white;
+	float: right;
+}
+
+.home-channel-collection-titleBoxInner1{
+	height: 40px;
+	width: 160px;
+	/*background-color: red;*/
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.home-channel-collection-titleBoxInner1 a{
+	/*background-color: blue;*/
+	width: 100%;
+	height: 28px;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	/*color: rgba(0,49,107,1);*/
+	color: white;
+	background-color: rgba(0,49,107,1);
+
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	text-align: center;
+
+	padding-top: 4px;
+}
+
+.home-channel-collection-box3{
+	width: 1200px;
+	height: 650px;
+	background-color: rgba(0,0,0,0.01);
+}
+
+.home-channel-collection-box2{
+	width: 1200px;
+	/*  450px +180px; */
+	height: 630px;  
+	/*background-color: rgba(0,0,0,0.01);*/
+	background-color: white;
+	border-bottom: 1px solid rgba(0,49,107,1);
+	/*border: 1px solid rgba(0,49,107,1);*/
+	padding: 0px 0px;
+}
+
+.home-channel-collection-box2-contentBox{
+	width: 1200px;
+	/*400 +180*/
+	height: 580px;
+	position: relative;
+	top: 50px;
+	/*background-color: rgba(0,0,0,0.07);*/
+	/*background-color: blue;*/
+	background-color: white;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.home-channel-collection-box2-contentWrapper{
+	width: 900px;
+	/*400+180px*/
+	height: 580px;
+	position: relative;
+	top: -50px;
+	/*background-color: red;*/
+	background-color: white;
+	float: left;
+}
+
+.home-channel-collection-box2-contentWrapper-increased{
+	width: 1000px;
+	height: 400px;
+	position: relative;
+	top: -50px;
+	/*background-color: red;*/
+	background-color: white;
+	float: left;
+}
+
+.home-channel-collection-box2-contentWrapper-full{
+	width: 1200px;
+	height: 400px;
+	position: relative;
+	top: -50px;
+	/*background-color: red;*/
+	background-color: white;
+	float: left;
+}
+
+.home-channel-collection-box2-unit2{
+	width: 380px;
+	height: 380px;
+	margin-left: 0px;
+	background-color: rgba(0,0,0,0.1);
+	float: left;
+
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	text-align: center;	
+	color: white;
+	font-size: 12px;
+}
+
+.home-channel-collection-box2-unitSeplit{
+	width: 100%;
+	height: 5px;
+	background-color: transparent;
+	position: relative;
+	background-color: black;
+}
+
+.home-channel-collection-box2-unit1{
+	width: 240px;
+	/*120px +60px*/
+	height: 180px;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: rgba(0,0,0,0.1);
+	float: left;
+	position: relative;
+
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	text-align: center;	
+	color: white;
+	font-size: 8px;
+
+	overflow: hidden;
+}
+
+.title{
+	font-size: 12px;
+	color: rgba(0,112,255,1);
+}
+
+.home-channel-collection-box2-unit2-introcover{
+	width:380px;
+	/*30+30*/
+	height: 180px;
+	position: absolute;
+	bottom: 20px;
+	/*background-color: rgba(0,0,0,0.6);*/
+	/*background-color: rgba(0,49,107,1);*/
+	background-color: white;
+	/*padding-left: 5px;*/
+	text-align: left;
+	overflow: hidden;
+	color: black;
+}
+
+
+.home-channel-collection-box2-unit1-introcover{
+	width:240px;
+	height: 60px;
+	position: absolute;
+	bottom: 0px;
+	/*background-color: rgba(0,0,0,0.6);*/
+	background-color: white;
+		/*background-color: rgba(0,49,107,1);*/
+	/*padding-left: 5px;*/
+	text-align: left;
+	overflow: hidden;
+	color: black;
+}
+
+.home-channel-collection-box2-unit2-introcover span{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+}
+
+.home-channel-collection-box2-unit1-introcover span{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+}
+
+
+.home-channel-collection-box2-unit2-captionContainer{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	bottom: 0px;
+	/*background-color: red;*/
+	width: 380px;
+}
+
+.home-channel-collection-box2-unit1-captionContainer{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: 0px;
+	/*background-color: red;*/
+	width: 240px;
+}
+
+
+.play-icon-inactive{
+	position: absolute;
+	width: 0px;
+	top: 0px;
+	left: 0px;
+}
+
+.play-icon-active{
+	position: absolute;
+	width:100%;
+	top: 0px;
+	left: 0px;
+}
+
+.home-channel-collection-box2-unit1CollectionBox2{
+	width: 500px;
+	/*400px + 180px*/
+	height: 580px;
+	float: right;
+	position: relative;
+	right: 5px;
+	/*background-color: green;*/
+}
+
+.home-channel-collection-box2-unit1CollectionBox3{
+	width: 750px;
+	height: 400px;
+	float: left;
+	position: relative;
+	/*right: 5px;*/
+	left: 5px;
+	/*background-color: green;*/
+}
+
+.home-channel-collection-box2-unit1CollectionBox3-fill{
+	width: 60px;
+	height: 400px;
+	float: right;
+	position: relative;
+	right: 5px;
+	background-color: rgba(0,0,0,0.08);
+}
+
+
+
+.home-channel-collection-box2-unit1CollectionBox4{
+	width: 1000px;
+	height: 400px;
+	float: right;
+}
+
+
+.home-channel-collection-box2-contentAssistantBox{
+	width: 300px;
+	height: 400px;
+	position: relative;
+	top: -50px;
+	background-color: rgba(0,0,0,0.06);
+	float: left;
+}
+
+.home-channel-collection-box2-contentAssistantBox-reduced{
+	width: 200px;
+	height: 400px;
+	position: relative;
+	top: -50px;
+	background-color: rgba(0,0,0,0.06);
+	float: left;
+}
+
+.home-channel-collection-box1{
+	width: 1200px;
+	height: 250px;
+	background-color: rgba(0,0,0,0.01);
+}
+
+.home-channel-collectionUnit-box3{
+
+}
+
+
+
+.home-top-selects{
+	width: 1200px;
+	height: 450px;
+	background-color: red;
+}
+
+.home-top-select{
+	width: 1200px;
+	height: 450px;
+}
+
+
+
+
+
+
+
+
+.TopVotesContainer .TopInTopsContainer{
+	/*width: 100%;*/
+	height: 550px;
+	background-color: white;
+}
+
+
+
+
+.TopVotesContainer .TopInTopsContainer #TopInTopsPlaceholder{
+	width: 100%;
+	height: 100%;
+	/*background-color: red;*/
+	display: block;
+
+	text-indent: 100%;
+	overflow: hidden;
+
+	background-image: url('https://chywawa.com/imgs/TopInTopsPlaceholder.png');
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	/*background-position: */
+}
+
+.TopVotesContainer .NOOneVotedTagContainer{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+
+.TopVotesContainer .NOOneVotedTagContainer .NOOneVotedTagContentsWrapper{
+	width: 950px;
+	height: 300px;
+	margin:0 auto;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.TopVotesContainer .NOOneVotedTagContainer .NOOneVotedTagContentsWrapper .reusableContainer1
+{
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	float: left;
+}
+
+.TopVotesContainer .NOOneVotedTagContainer .NOOneVotedTagContentsWrapper .reusableContainer2{
+	width: 150px;
+	height: 300px;
+	background-color: red;
+
+}
+
+
+.TopVotesContainer .NOTwoVotedTagContainer{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+
+.TopVotesContainer .NOTwoVotedTagContainer .NOTwoVotedTagContentsWrapper{
+	width: 950px;
+	height: 300px;
+	margin:0 auto;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.TopVotesContainer .NOThreeVotedTagContainer{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+
+.TopVotesContainer .NOThreeVotedTagContainer .NOThreeVotedTagContentsWrapper{
+	width: 950px;
+	height: 300px;
+	margin:0 auto;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.TopVotesContainer .NOFourVotedTagContainer{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+
+.TopVotesContainer .NOFourVotedTagContainer .NOFourVotedTagContentsWrapper{
+	width: 950px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.TopVotesContainer .NOFiveVotedTagContainer{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+
+.TopVotesContainer .NOFiveVotedTagContainer .NOFiveVotedTagContentsWrapper{
+	width: 950px;
+	height: 300px;
+	margin:0 auto; 
+	background-color: rgba(0,0,0,0.05);
+}	
+
+.TopVotesContainer .LoadMoreContainer{
+	width: 100%;
+	height: 30px;
+	margin:0 auto; 
+	background-color: white;
+}
+
+.TopVotesContainer .LoadMoreContainer .LoadMoreButton{
+	width: 100px;
+	height: 30px;
+	/*border-radius: 15px;*/
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.TopVotesContainer .LoadMoreContainer .LoadMoreButton a{
+	width: 100%;
+	height: 100%;
+	/*display: block;*/
+	text-indent: 2000%;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0 0;
+	margin: 0 0;
+
+	text-decoration: none;
+	/*background-color: red;*/
+
+	background-image: url('https://chywawa.com/imgs/loadMoreUnHover.png');
+	background-repeat: no-repeat;
+	background-size: 100px;
+}
+.TopVotesContainer .LoadMoreContainer .LoadMoreButton a:hover{
+	background-image: url('https://chywawa.com/imgs/loadMoreHover.png');
+}
+
+
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+
+
+.whatsMoreContainer{
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: rgba(0,49,107,1);
+}
+
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+.footerContainer{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	/*background-color: rgba(0,49,107,1);*/
+	background-color: white;
+}
+
+.footerContainer .zeroFooter{
+	width: 1200px;
+	height: 59px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.footerContainer .zeroFooter a{
+	text-decoration: none;
+	color: rgba(0,49,107,1);
+}
+
+.footerContainer .zeroFooter a:hover{
+	color: red;
+}
+
+.footerContainer .zeroFooter .country{
+	height: 30px;
+	width: 120px;
+	margin:14.5px 0px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.footerContainer .zeroFooter .country #country{
+	width: 100%;
+	height: 100%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+
+	padding:0 0;
+	margin-top: 0 0;
+
+	/*background-color: blue;*/
+	background-image: url('https://chywawa.com/imgs/countrySelectUnHover.png');
+	background-size: 120px;
+}
+
+.footerContainer .zeroFooter .country #country:hover{
+	background-image: url('https://chywawa.com/imgs/countrySelectHover.png');
+}
+
+.footerContainer .zeroFooter .countrySelected{
+	height: 30px;
+	width: 120px;
+	margin-top: 14.5px;
+	margin-left: 0px;
+	margin-bottom: 14.5px;
+	float: left;
+	/*background-color: blue;*/
+}
+
+.footerContainer .zeroFooter .countrySelected #countrySelected{
+	height: 100%;
+	width: 100%;
+	padding-top: 4.5px;
+	padding-left: 6px;
+	/*text-align: center;*/
+	display: inline-block;
+
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	/*background-color: red;*/
+}
+
+.footerContainer .zeroFooter .province{
+	height: 30px;
+	width: 120px;
+	margin:14.5px 0px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.footerContainer .zeroFooter .province #province{
+	width: 100%;
+	height: 100%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+
+	padding:0 0;
+	margin-top: 0 0;
+
+	/*background-color: blue;*/
+	background-image: url('https://chywawa.com/imgs/provinceSelectUnHover.png');
+	background-size: 120px;
+}
+
+.footerContainer .zeroFooter .province #province:hover{
+	background-image: url('https://chywawa.com/imgs/provinceSelectHover.png');
+}
+
+.footerContainer .zeroFooter .provinceSelected{
+	height: 30px;
+	width: 120px;
+	margin-top: 14.5px;
+	margin-left: 0px;
+	margin-bottom: 14.5px;
+	float: left;
+	/*background-color: blue;*/
+}
+
+.footerContainer .zeroFooter .provinceSelected #provinceSelected{
+	height: 100%;
+	width: 100%;
+	padding-top: 5.5px;
+	padding-left: 11px;
+	/*text-align: center;*/
+	display: inline-block;
+
+	font-family: Arial, sans-serif;;
+	font-weight: 400;
+	/*background-color: red;*/
+}
+
+
+.footerContainer .zeroFooter .city{
+	height: 30px;
+	width: 60px;
+	margin:14.5px 0px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.footerContainer .zeroFooter .city #city{
+	width: 100%;
+	height: 100%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+
+	padding:0 0;
+	margin-top: 0 0;
+
+	/*background-color: blue;*/
+	background-image: url('https://chywawa.com/imgs/citySelectUnHover.png');
+	background-size: 60px;
+}
+
+.footerContainer .zeroFooter .city #city:hover{
+	background-image: url('https://chywawa.com/imgs/citySelectHover.png');
+}
+
+.footerContainer .zeroFooter .citySelected{
+	height: 30px;
+	width: 120px;
+	margin-top: 14.5px;
+	margin-left: 0px;
+	margin-bottom: 14.5px;
+	float: left;
+	/*background-color: blue;*/
+}
+
+.footerContainer .zeroFooter .citySelected #citySelected{
+	height: 100%;
+	width: 100%;
+	padding-top: 5.5px;
+	padding-left: 7px;
+	/*text-align: center;*/
+	display: inline-block;
+
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	/*background-color: red;*/
+}
+
+.footerContainer .zeroFooter .school{
+	height: 30px;
+	width: 90px;
+	margin:14.5px 0px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.footerContainer .zeroFooter .school #school{
+	width: 100%;
+	height: 100%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+
+	padding:0 0;
+	margin-top: 0 0;
+
+	/*background-color: blue;*/
+	background-image: url('https://chywawa.com/imgs/schoolSelectUnHover.png');
+	background-size: 90px;
+}
+
+.footerContainer .zeroFooter .school #school:hover{
+	background-image: url('https://chywawa.com/imgs/schoolSelectHover.png');
+}
+
+.footerContainer .zeroFooter .schoolSelected{
+	height: 30px;
+	width: 120px;
+	margin-top: 14.5px;
+	margin-left: 0px;
+	margin-bottom: 14.5px;
+	float: left;
+	/*background-color: blue;*/
+}
+
+.footerContainer .zeroFooter .schoolSelected #schoolSelected{
+	height: 100%;
+	width: 100%;
+	padding-top: 5.5px;
+	padding-left: 7px;
+	/*text-align: center;*/
+	display: inline-block;
+
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	/*background-color: red;*/
+}
+
+/*****************************************************************************/
+/*    history language  help  */
+.footerContainer .firstFooter{
+	width: 1200px;
+	height: 59px;
+	margin:0 auto; 
+	background-color: white;
+}
+
+.footerContainer .firstFooter .history{
+	height: 30px;
+	width: 90px;
+	margin-top: 14.5px;
+	margin-bottom:14.5px;
+	float: left;
+	/*background-color: red;*/
+	/*display: block;*/
+}
+
+.footerContainer .firstFooter .history #history{
+	width: 100%;
+	height: 100%;
+	/*background-color: blue;*/
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+
+	padding:0 0;
+	margin: 0 0; 
+
+	/*position: relative;
+	top:0px;*/
+	background-image:url('https://chywawa.com/imgs/HistorySelectUnHover.png'); 
+	background-size: 90px;
+	background-repeat: no-repeat;
+}
+
+.footerContainer .firstFooter .history #history:hover{
+	background-image:url('https://chywawa.com/imgs/HistorySelectHover.png'); 
+}
+
+.footerContainer .firstFooter .language{
+	height: 30px;
+	width: 120px;
+	margin-top: 14.5px;
+	margin-left: 100px;
+	margin-bottom: 14.5px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.footerContainer .firstFooter .language #language{
+	width: 100%;
+	height: 100%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+
+	padding: 0 0;
+	margin:0 0;
+
+	background-image: url('https://chywawa.com/imgs/languageSelectUnHover.png');
+	background-size: 120px;
+	background-repeat: no-repeat; 
+
+}
+
+.footerContainer .firstFooter .language #language:hover{
+	background-image: url('https://chywawa.com/imgs/languageSelectHover.png');
+}
+
+.footerContainer .firstFooter .languageSelected {
+	height: 30px;
+	width: 100px;
+	margin-top: 14.5px;
+	margin-left: 0px;
+	margin-bottom: 14.5px;
+	float: left;
+	/*background-color: blue;*/
+}
+
+.footerContainer .firstFooter .languageSelected #languageSelected{
+	height: 100%;
+	width: 100%;
+	padding-top: 6px;
+	padding-left: 6px;
+	/*text-align: center;*/
+	display: inline-block;
+
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	/*background-color: red;*/
+
+}
+
+.footerContainer .firstFooter .help{
+	height: 30px;
+	width: 90px;
+	margin-left:40px;
+	margin-top: 14.5px; 
+	margin-bottom: 14.5px;
+	float: left;
+	/*background-color: red;*/
+
+}
+
+.footerContainer .firstFooter .help #help{
+	/*background-color: blue;*/
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+
+	background-image: url('https://chywawa.com/imgs/helpSelectUnHover.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+}
+
+
+.footerContainer .firstFooter .help #help:hover{
+	background-image: url('https://chywawa.com/imgs/helpSelectHover.png');
+}
+/*****************************************************************************/
+.footerContainer .firstFooterContentsRegion{
+	height: 0px;
+}
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+/*  second footer*/
+/*****************************************************************************/
+
+.footerContainer .secondFooter{
+	width: 1200px;
+	height: 25px;
+	margin: 0 auto;
+	/*background-color: white;*/
+	/*background-color: blue;*/
+	margin-top: 5px;
+}
+.footerContainer .secondFooter .chyWaWaNowQuickLink{
+	/*background-color: red;*/
+	height: 20px;
+	width: 45px;
+	float: left;
+	margin-top: 2px;
+
+}
+
+.footerContainer .secondFooter .chyWaWaNowQuickLink #chyWaWaNowQuickLink{
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.footerContainer .secondFooter .chyWaWaNowQuickLink #chyWaWaNowQuickLink:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .secondFooter .chyWaWaNowQuickLink #chyWaWaNowQuickLink:visited{
+	text-decoration: none;
+	color: rgba(0,49,107,1);
+}
+
+.footerContainer .secondFooter .chyWaWaNowQuickLink #chyWaWaNowQuickLink:active{
+	color: red;
+}
+
+.footerContainer .secondFooter .chyWaWaVoteQuickLink{
+	/*background-color: blue;*/
+	height: 20px;
+	width: 30px;
+	float: left;
+	color: rgba(0,49,107,1);
+	margin-top: 2px;
+	padding-left: 5px;
+	color: rgba(0,49,107,1);
+
+}
+
+.footerContainer .secondFooter .chyWaWaVoteQuickLink #chyWaWaVoteQuickLink{
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.footerContainer .secondFooter .chyWaWaVoteQuickLink #chyWaWaVoteQuickLink:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .secondFooter .chyWaWaVoteQuickLink #chyWaWaVoteQuickLink:visited{
+	text-decoration: none;
+
+}
+
+.footerContainer .secondFooter a{
+	color: rgba(0,49,107,1);
+}
+
+/***********************    Third Footer   ****************************/
+/***********************                   ****************************/
+
+.SectionSplitLine1{
+	width: 1200px;
+	height: 1px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.3);
+}
+.footerContainer .thirdFooter{
+	width: 1200px;
+	height: 25px;
+	margin: 0 auto;
+	/*background-color: white;*/
+	/*background-color: red;*/
+	margin-top: 0px;
+}
+
+.footerContainer .thirdFooter .advertise{
+	height: 20px;
+	width: 80px;
+	float: left;
+	margin-top: 2px;
+}
+.footerContainer .thirdFooter .advertise #advertise{
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.footerContainer .thirdFooter .advertise #advertise:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .thirdFooter .uploader{
+	height: 20px;
+	width: 76px;
+	float: left;
+	margin-top: 2px;
+}
+
+.footerContainer .thirdFooter .uploader #uploader{
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.footerContainer .thirdFooter .uploader #uploader:hover{
+	text-decoration: underline;
+}
+
+
+.footerContainer .thirdFooter .voters{
+	height: 20px;
+	width: 55px;
+	float: left;
+	margin-top: 2px;
+}
+
+.footerContainer .thirdFooter .voters #voters{
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.footerContainer .thirdFooter .voters #voters:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .thirdFooter .fameCalculation{
+	height: 20px;
+	width:130px;
+	float: left;
+	margin-top: 2px;
+}
+
+.footerContainer .thirdFooter .fameCalculation #fameCalculation{
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.footerContainer .thirdFooter .fameCalculation #fameCalculation:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .thirdFooter .developer{
+	height: 20px;
+	width:80px;
+	float: left;
+	margin-top: 2px;
+}
+
+.footerContainer .thirdFooter .developer #developer{
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.footerContainer .thirdFooter .developer #developer:hover{
+	text-decoration: underline;
+}
+
+.thirdFooter a{
+	color: rgba(0,49,107,1);
+} 
+
+.thirdFooter div a:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .forthFooter{
+	width: 1200px;
+	height: 45px;
+	margin:  0 auto;
+	/*background-color: rgba(0,0,0,0.02);*/
+}
+
+.footerContainer .forthFooter a{
+	color: rgba(0,29,107,1);
+}
+
+.footerContainer .forthFooter .about{
+	height: 20px;
+	width:55px;
+	float: left;
+	margin-top: 2px;
+	/*background-color: red;*/
+}
+
+.footerContainer .forthFooter .about #about{
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.footerContainer .forthFooter .about #about:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .forthFooter .privacy{
+	height: 20px;
+	width:63px;
+	float: left;
+	margin-top: 2px;
+	/*background-color: red;*/
+}
+
+.footerContainer .forthFooter .privacy #privacy{
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;	
+}
+
+.footerContainer .forthFooter .privacy #privacy:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .forthFooter .cookies{
+	height: 20px;
+	width:70px;
+	float: left;
+	margin-top: 2px;
+}
+
+.footerContainer .forthFooter .cookies #cookies{
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.footerContainer .forthFooter .cookies #cookies:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .forthFooter .directory{
+	height: 20px;
+	width:76px;
+	float: left;
+	margin-top: 2px;
+}
+
+.footerContainer .forthFooter .directory #directory{
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-weight: 400;	
+	font-size: 14px;
+}
+
+.footerContainer .forthFooter .directory #directory:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .forthFooter .copyright{
+	height: 20px;
+	width:90px;
+	float: left;
+	margin-top: 2px;
+}
+
+.footerContainer .forthFooter .copyright #copyright{
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-weight: 400;	
+	font-size: 14px;
+}
+
+.footerContainer .forthFooter .copyright #copyright:hover{
+	text-decoration: underline;
+}
+
+.footerContainer .forthFooter .copyrightIcon{
+	height: 20px;
+	width:170px;
+	float: left;
+	margin-top: 2px;
+}
+
+.footerContainer .forthFooter .copyrightIcon #copyrightIcon{
+	font-family: Arial, sans-serif;
+	font-weight: 500;	
+	font-size: 11px;
+}
+
+
+/*******************************************************/
+.tagRed{
+	color: red !important;
+}
+.tagGreen{
+	color: green !important;
+}
+
+
+
+/********************Home  votes area**********************************/
+.votes-count{
+	background-color:white;
+	width:60px;
+	height:30px;
+	position:relative;
+	top:0px;
+	margin:5px auto;
+}
+
+.vote-up a{
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        white-space: nowrap;
+        text-indent: 300%;
+        overflow: hidden;       
+
+        background-image: url(https://chywawa.com/imgs/home/vote-up-unvoted.png);
+        background-repeat: no-repeat;
+
+        background-size: 60px;
+}
+
+.vote-up a:hover{
+	background-image: url(https://chywawa.com/imgs/home/vote-up-voted.png);
+}
+
+.vote-down a{
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        white-space: nowrap;
+        text-indent: 300%;
+        overflow: hidden;       
+
+        background-image: url(https://chywawa.com/imgs/home/vote-down-unvoted.png);
+        background-repeat: no-repeat;
+
+        background-size: 60px;
+}
+
+.vote-down a:hover{
+	        background-image: url(https://chywawa.com/imgs/home/vote-down-voted.png);
+}
+
+
+
+.votes-count a{
+	text-decoration:none;
+
+	color:rgba(0,49,107,0.5);
+	min-width:20px;
+	margin:3px auto;
+	display:inline-block;
+	position:relative;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+
+
+/*****  user avatar ******/
+.home-feed-unit-user-avatar a{
+
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        white-space: nowrap;
+        text-indent: 300%;
+        overflow: hidden;       
+
+        background-image: url('https://chywawa.com/imgs/userProfile/myselfie.jpg');
+        background-repeat: no-repeat;
+
+        background-size: 60px;
+}
+
+
+.home-feed-unit-box a{
+	text-decoration:none;
+}
+
+.home-feed-unit-box a:hover{
+	text-decoration:underline;
+}

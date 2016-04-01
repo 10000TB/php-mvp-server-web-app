@@ -1,0 +1,319 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Lato:400,300italic,400italic,700,300,100italic,100,700italic,900,900italic);
+
+body{
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+}
+
+.uploadContentsWrapper{
+	position: relative;
+	top: 0px;
+	bottom: 50px;
+
+	background-color: transparent;
+	width: 1000px;
+	height: auto;
+	height: auto;
+	margin: 0px auto;
+	margin-bottom: 80px;
+}
+
+.uploadContentsWrapper .uploadContainer{
+	width: 1000px;
+	height: 900px;
+	height: auto;
+	/*background-color: red;*/
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.uploadVideoContainer{
+	background-color: red;
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+
+	background-color: transparent;
+}
+
+.uploadVideoContainer #uploadLabel{
+	width: 590px;
+	height: 30px;
+	background-color:red;
+
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	text-decoration: none;
+	color: rgba(0,49,107,1);
+
+	display: inline-block;
+	text-align: center;
+	padding-top: 8px;
+
+	margin: 0px auto;
+}
+
+.uploadVideoContainer #uploadLabel span{
+	display: inline-block;
+
+
+}
+
+.uploadContentsWrapper .uploadContainer .enterLinkContainer{
+	width: 600px;
+	height: 50px;
+	/*background-color: blue;*/
+	margin: 0 auto;
+}
+
+.uploadContentsWrapper .uploadContainer .enterLinkContainer .uploadLinkAddress{
+	position: relative;
+	width: 472px;
+	height: 40px;
+	background-color: white;
+	margin: 10px 0px;
+	float: left;
+}
+
+.uploadContentsWrapper .uploadContainer .enterLinkContainer .uploadLinkAddress #uploadLinkAddress{
+	width: 100%;
+	height: 37px;
+
+	padding: 0px 0px;
+	margin: 0px 0px;
+
+	font-size: 19px;
+
+	-webkit-transition: all 0.40s ease-in-out;
+  	-moz-transition: all 0.40s ease-in-out;
+  	-ms-transition: all 0.40s ease-in-out;
+  	-o-transition: all 0.40s ease-in-out;
+  	/*border: */
+  	border: 1px solid rgba(0,0,0,0.3);
+  	outline: none;
+}
+
+.uploadContentsWrapper .uploadContainer .enterLinkContainer .uploadLinkAddress #uploadLinkAddress:focus{
+	border: 1px solid rgba(0,49,107,1);
+	box-shadow: 0 0 2px rgba(0,49,107,1);
+}
+
+.uploadContentsWrapper .uploadContainer .enterLinkContainer .uploadLoadButton{
+	position: relative;
+	margin-top: 10px;
+	right: 0px;
+	width: 120px;
+	height: 40px;
+	background-color: white;
+	float: right;
+}
+
+.uploadContentsWrapper .uploadContainer .enterLinkContainer .uploadLoadButton #uploadLoadButton{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border:0px solid white;
+
+	position: relative;
+
+	background-image: url(https://www.chywawa.com/imgs/upload/loadDisabled.png);
+	background-repeat: no-repeat;
+	background-size: 120px;
+}
+
+.uploadContentsWrapper .uploadContainer .previewContainer{
+	width: 597px;
+	height: 480px;
+	/*background-color:red; */
+	border: 1px solid rgba(0,49, 107,1);
+}
+
+
+
+
+
+
+.uploadContentsWrapper .uploadContainer .uploadUploadButtonContainer{
+	position: relative;
+	width: 600px;
+	height: 50px;
+	border-color: blue;
+	top: 5px;
+
+}
+
+.uploadContentsWrapper .uploadContainer .uploadUploadButtonContainer #uploadUploadButtonContainer{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: 0px solid white;
+
+	background-image: url(https://www.chywawa.com/imgs/upload/uploadDisabled.png);
+	background-repeat: no-repeat;
+	background-size: 600px;
+}
+
+
+/*   Progress Notice area */
+.progressNotice{
+	position:relative;
+	width:100%;
+	height:30px;
+	margin-top:4px;
+	top:-30px;
+	/*background-color:rgba(123,12,23,0.2);*/
+	float:left;
+}
+
+.progressNotice .uploading-notice-icon-container{
+	/*background-color:blue;*/
+	width:27px;
+	height:27px;
+	position: relative;
+	top: 2px;
+	float:left;
+}
+
+.progressNotice .uploading-notice-icon-container #upload-notice-icon{
+	width: 100%;
+	height: 100%;
+
+	text-indent: 100%;
+	display: inline-block;
+	overflow: hidden;
+
+	background-image: url(https://www.chywawa.com/imgs/upload/notification-icon.png);
+	background-repeat: no-repeat;
+	background-size: 27px;
+}
+
+.progressNotice .uploading-notice-body-icon{
+	/*background-color:red;*/
+	width:730px;
+	height:30px;
+	float:left;
+	position: relative;
+	left: 5px;
+}
+
+
+
+/*   uploading loading*/
+.uploading-loading-gif #uploading-loading{
+	width: 100%;
+	height: 100%;
+
+	text-indent: 100%;
+	display: inline-block;
+	overflow: hidden;
+
+	background-image: url(https://www.chywawa.com/imgs/upload/uploading-loading-style1.gif);
+	background-repeat: no-repeat;
+	background-size: 30px;
+}
+
+
+/*  UPLOADING FILE INFO*/
+.specificationArea{
+	margin-top:0px;
+	padding:0px 0px;
+	height:auto;
+	position:relative;
+}
+
+.titleArea{
+	position:relative;
+	background-color:transparent;
+	width:765px;
+	height:35px;
+	margin-top:0px;
+	padding:0px 0px;
+}
+
+.titleArea .fileName{
+	position:relative;top:-22px;
+	width:760px;
+	height:30px;
+	margin-top:0px;
+
+	border: 1px solid rgba(0,0,0,0.1);
+
+	font-size: 20px;
+	color:rgba(0,0,0,0.7);
+}
+
+.tagsArea{
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.tagsArea #tagsArea{
+	resize:none;
+	margin-top:10px;
+	width:758px;
+	height:70px;
+	font-size: 18px;
+	border: 1px solid rgba(0,0,0,0.1)
+}
+
+
+
+.publishArea .publish{
+	width: 100%;
+	height: 100%;
+	text-indent: 100%;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(https://www.chywawa.com/imgs/upload/publish-button-disabled.png);
+	background-repeat: no-repeat;
+	background-size: 120px;
+}
+
+.files_dropbox{
+	width:100%;
+	height:400px;
+	position:relative;
+	background-color:white;
+	overflow: hidden;
+}
+
+.files_dropbox .dropbox_background{
+	/*background-color:red;*/
+	display:block;
+	width:200px;
+	height:100px;
+	position:relative;
+	top:130px;
+	left:400px;
+
+	text-indent: 100%;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(https://www.chywawa.com/imgs/upload/upload-drag-area-icon-disabled.png);
+	background-repeat: no-repeat;
+	background-size: 200px;
+}
+
+.add-more-video{
+	text-indent: 100%;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(https://www.chywawa.com/imgs/upload/upload-add-more-button-disabled.png);
+	background-repeat: no-repeat;
+	background-size: 120px;	
+}
+
+.add-more-video:hover{
+	text-indent: 100%;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(https://www.chywawa.com/imgs/upload/upload-add-more-button-enabled.png);
+	background-repeat: no-repeat;
+	background-size: 120px;	
+}

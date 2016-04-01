@@ -1,0 +1,3 @@
+header<?php 
+	header('Location:https://www.chywawa.com/pages/helpers/inBuildingPlaceHolderPage.php');
+?>

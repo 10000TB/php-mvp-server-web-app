@@ -1,0 +1,20 @@
+{
+	"name": "ChyWaWa/ChyWaWaWeb",
+	"type": "project",
+	"description":"The Web App for ChyWaWa",
+	"keywords":["short videos","social networks","chywawa"],
+	"homepage":"https://www.chywawa.com",
+    "require": {
+        "illuminate/database": "^5.2",
+        "php": ">=5.5.0",
+        "phpmailer/phpmailer": "~5.2",
+        "gregwar/captcha": "~1.1",
+        "phpunit/phpunit": "~4.8"
+    },
+    "autoload":{
+    	"classmap":[
+    		"application/models"
+    	],
+    	"psr-4": { "": ["application/core/", "application/model/"] }
+    }
+}

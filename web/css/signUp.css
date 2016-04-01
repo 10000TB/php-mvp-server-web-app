@@ -1,0 +1,197 @@
+.signUpHeader{
+	position: absolute;
+	top: 0px;
+	height: 70px;
+	width: 100%;
+	background-color: rgba(0,49,107,1);
+	z-index: 100000;
+}
+
+.signUpHeader .signUpHeaderTitle{
+	width: 180px;
+	height: 60px;
+	margin: 5px auto; 
+	background-color: white;
+}
+
+.signUpHeader .signUpHeaderTitle #signUpHeaderTitle{
+	height: 100%;
+	width: 100%;
+
+	/*background-color: red;*/
+	text-indent: 100%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(../../web/imgs/signUp/SignUpChyWaWaTitle.png);
+	background-repeat: no-repeat;
+	background-size: 180px;
+}
+
+.signUpHeader .signUpPageHeaderLogin{
+	position: absolute;
+	top: 15px;
+	width: 80px;
+	height: 40px;
+	/*float: right;*/
+	right: 60px;
+	/*background-color:red; */
+}
+
+.signUpHeader .haveAAccountLabel{
+	position: absolute;
+	top: 26px;
+	right: 150px;
+	color: white;
+	/*background-color: white;*/
+	background-color: rgba(0,49,107,1);
+}
+
+.signUpHeader .haveAAccountLabel #haveAAccountLabel{
+	float: left;
+	width: auto;
+	/*background-color: white;*/
+	background-color: rgba(0,49,107,1);
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+}
+
+.signUpHeader .signUpPageHeaderLogin #signUpPageHeaderLogin{
+	height: 100%;
+	width: 100%;
+	float: right;
+	/*background-color: red;*/
+	text-indent: 100%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(../../web/imgs/loginHover.png);
+	background-repeat: no-repeat;
+	background-size: 80px;
+} 
+
+.mainContentWrapper {
+	position: relative;
+
+	height: 700px;
+	width: 1000px;
+	margin:0 auto;
+	background-color: white; 
+}
+
+.mainContentWrapper .signUpContainerWrapper{
+	position: relative;
+	top: 110px;
+	height: auto;
+	width: 900px;
+	margin: 0 auto;
+	/*background-color: black;*/
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpAlertsContainer{
+	position: relative;
+	float: right;
+	width: 250px;
+	height: 500px;
+	/*background-color: red;*/
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer{
+	position: relative;
+	float: right;
+	width: 400px;
+	height: 500px;
+	/*background-color: rgba(0,0,0,0.3);*/
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpSubTitle{
+	width: 400px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpSubTitle #signUpSubTitle{
+	height: 100%;
+	width: 100%;
+	float: right;
+	/*background-color: blue;*/
+	text-indent: 100%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(../../web/imgs/signUp/signUpSubTitle.png);
+	background-repeat: no-repeat;
+	background-size: 400px;
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox{
+	width: 400px;
+	height: 50px;
+	margin: 5px 0px;
+	/*background-color: red;*/
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox input{
+	height: 40px;
+	outline: none;
+	font-size: 19px;
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox #firstName{
+	width: 240px;
+	padding:0px 0px; 
+	margin-left: 0px;
+	float: left;
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox #lastName{
+	width: 143px;
+	margin-left: 0px;
+	padding:0px 0px; 
+	float: right;
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox #emailAddress{
+	width: 395.5px;
+	padding:0px 0px; 
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox #reEnteredEmailAddress{
+	width: 395.5px;
+	padding:0px 0px; 
+}
+
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox .signUpPolicy{
+		width: 395.5px;
+	padding:0px 0px; 
+	/*background-color: red;*/
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox .signUpPolicy #signUpPolicy{
+	font-size: 12px;
+		font-family: Arial, sans-serif;
+	font-weight: 400;
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox #password{
+	width: 395.5px;
+	padding: 0px 0px;
+}
+
+.mainContentWrapper .signUpContainerWrapper .signUpContentsContainer .signUpStandardBox #signUpSubmit
+{
+	background-image: url(../../web/imgs/signUp/signUpSubmitButtonEnabled.png);
+	background-size: 400px;
+	  /*color: #000000;*/
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  padding-bottom: 2px;
+  width: 400px;
+  border: none;
+  background-repeat: no-repeat;
+}

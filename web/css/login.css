@@ -1,0 +1,166 @@
+.loginHeader{
+	position: absolute;
+	top: 0px;
+	height: 70px;
+	width: 100%;
+	background-color: rgba(0,49,107,1);
+	z-index: 100000;
+}
+
+.loginHeader .loginHeaderTitle{
+	width: 180px;
+	height: 60px;
+	margin: 5px auto; 
+	background-color: white;
+}
+
+.loginHeader .loginHeaderTitle #loginHeaderTitle{
+	height: 100%;
+	width: 100%;
+
+	/*background-color: red;*/
+	text-indent: 100%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(../../web/imgs/signUp/SignUpChyWaWaTitle.png);
+	background-repeat: no-repeat;
+	background-size: 180px;
+}
+
+.loginHeader .loginPageHeaderSignUp{
+	position: absolute;
+	top: 15px;
+	width: 80px;
+	height: 40px;
+	/*float: right;*/
+	right: 60px;
+	/*background-color:red; */
+}
+
+.loginHeader .noAccountLabel{
+	position: absolute;
+	top: 26px;
+	right: 150px;
+	color: white;
+/*	background-color: white;*/
+	background-color: rgba(0,49,107,1);
+	/*background-color: red;*/
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+}
+
+.loginpHeader .noAccountLabel #noAccountLabel{
+	float: left;
+	width: auto;
+	background-color: white;
+	/*background-color: rgba(0,49,107,1);*/
+
+}
+
+
+.loginHeader .loginPageHeaderSignUp #loginPageHeaderSignUp{
+	height: 100%;
+	width: 100%;
+	float: right;
+	/*background-color: red;*/
+	text-indent: 100%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(../../web/imgs/signUpIconHover.png);
+	background-repeat: no-repeat;
+	background-size: 80px;
+} 
+
+
+.mainContentWrapper .loginContainerWrapper{
+	position: relative;
+	top: 110px;
+	height: auto;
+	width: 900px;
+	margin: 0 auto;
+	/*background-color: black;*/
+}
+
+.mainContentWrapper .loginContainerWrapper .loginAlertsContainer{
+	position: relative;
+	float: right;
+	width: 250px;
+	height: 500px;
+	/*background-color: red;*/
+}
+
+.mainContentWrapper .loginContainerWrapper .loginContentsContainer{
+	position: relative;
+	float: right;
+	width: 400px;
+	height: 500px;
+	/*background-color: rgba(0,0,0,0.3);*/
+}
+
+
+.mainContentWrapper .loginContainerWrapper .loginContentsContainer .loginSubTitle{
+	width: 400px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.mainContentWrapper .loginContainerWrapper .loginContentsContainer .loginSubTitle #loginSubTitle{
+	height: 100%;
+	width: 100%;
+	float: right;
+	/*background-color: blue;*/
+	text-indent: 100%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+
+	background-image: url(../../web/imgs/login/loginSubTitle.png);
+	background-repeat: no-repeat;
+	background-size: 400px;
+}
+
+.mainContentWrapper .loginContainerWrapper .loginContentsContainer .loginStandardBox{
+	width: 400px;
+	height: 50px;
+	margin: 5px 0px;
+	/*background-color: red;*/
+}
+
+
+
+.mainContentWrapper .loginContainerWrapper .loginContentsContainer .loginStandardBox input{
+	height: 40px;
+	outline: none;
+	font-size: 19px;
+}
+
+.mainContentWrapper .loginContainerWrapper .loginContentsContainer .loginStandardBox #emailAddress{
+	width: 395.5px;
+	padding:0px 0px; 
+}
+
+
+.mainContentWrapper .loginContainerWrapper .loginContentsContainer .loginStandardBox #password{
+	width: 395.5px;
+	padding: 0px 0px;
+}
+
+.mainContentWrapper .loginContainerWrapper .loginContentsContainer .loginStandardBox #loginSubmit
+{
+	background-image: url(../../web/imgs/login/loginSubmitButtonEnabled.png);
+	background-size: 400px;
+	  /*color: #000000;*/
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  padding-bottom: 2px;
+  width: 400px;
+  border: none;
+  background-repeat: no-repeat;
+}
+
+
