@@ -3,5 +3,5 @@ ChyWaWaWeb
 
   https://www.chywawa.com
   
-  closed source php application built by ChyWaWa Inc. 
+  closed source php application built by ChyWaWa 
   
