@@ -1,7 +1,7 @@
 <snippet>
   <content>
-# PHP Web App with video uploading,user management system, video categories listings features 
-TODO: Write a project description
+# WaWa
+PHP Web App with video uploading,user management system, video categories listings features 
 ## Installation
 1. Download the file (direct download, git clone)
 2. Specify the Web Server root dir as the path to the location of this project in your server
