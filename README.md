@@ -8,6 +8,7 @@ TODO: Write a project description
 3. Set up mySql Database(change the credentials of the mysql connecton in Config.Development.php)
 4. Set up Redis in your server
 5. The app should now available at localhost
+
 ## Usage
 TODO: Write usage instructions
 ## Contributing
