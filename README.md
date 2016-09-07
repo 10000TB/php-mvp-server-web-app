@@ -3,7 +3,12 @@
 # PHP Web App with video uploading,user management system, video categories listings features 
 TODO: Write a project description
 ## Installation
-TODO: Describe the installation process
+1. Download the file (direct download, git clone)
+2. Specify the Web Server root dir as the path to the location of this project in your server
+3. Set up mySql Database
+  3.1 change the credentials of the mysql connecton in Config.Development.php
+4. Set up Redis in your server
+5. The app should now available at localhost
 ## Usage
 TODO: Write usage instructions
 ## Contributing
