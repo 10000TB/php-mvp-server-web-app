@@ -65,9 +65,9 @@ return array(
 	 */
 	'DB_TYPE' => 'mysql',
 	'DB_HOST' => '127.0.0.1',
-	'DB_NAME' => 'chywawa001',
+	'DB_NAME' => 'your db name',
 	'DB_USER' => 'root',
-	'DB_PASS' => 'QQqq137w326e699+39',
+	'DB_PASS' => 'your password',
 	'DB_PORT' => '3306',
 	'DB_CHARSET' => 'utf8',
 	/**
@@ -120,8 +120,8 @@ return array(
      * ENCRYPTION_KEY, HMAC_SALT: Currently used to encrypt and decrypt publicly visible values, like the user id in
 	 * the cookie. Change these values for increased security, but don't touch if you have no idea what this means.
      */
-    'ENCRYPTION_KEY' => '6#x0gÊìf^25cL1f$08&',
-    'HMAC_SALT' => '8qk9c^4L6d#15tM8z7n0%',
+    'ENCRYPTION_KEY' => 'sdf6#sdfx0fdsggÊìf^25cL1f$08&',
+    'HMAC_SALT' => '8qk9c^4L6d#sdfgsf15tM8z7n0%',
 	/**
 	 * Configuration for: Email server credentials
 	 *
@@ -138,21 +138,21 @@ return array(
 	'EMAIL_USE_SMTP' => true,
 	'EMAIL_SMTP_HOST' => 'mail.smtp2go.com',
 	'EMAIL_SMTP_AUTH' => true,
-	'EMAIL_SMTP_USERNAME' => 'xuehao.hu@gmail.com',
-	'EMAIL_SMTP_PASSWORD' => 'Qq137w326e699+39',
+	'EMAIL_SMTP_USERNAME' => 'username of your emails service provide',
+	'EMAIL_SMTP_PASSWORD' => 'corresponding password',
 	'EMAIL_SMTP_PORT' => 465,
 	'EMAIL_SMTP_ENCRYPTION' => 'ssl',
 	/**
 	 * Configuration for: Email content data
 	 */
 	'EMAIL_PASSWORD_RESET_URL' => 'login/verifypasswordreset',
-	'EMAIL_PASSWORD_RESET_FROM_EMAIL' => 'admin@chywawa.com',
-	'EMAIL_PASSWORD_RESET_FROM_NAME' => 'ChyWaWa',
+	'EMAIL_PASSWORD_RESET_FROM_EMAIL' => 'your contact email',
+	'EMAIL_PASSWORD_RESET_FROM_NAME' => 'Brand name',
 	'EMAIL_PASSWORD_RESET_SUBJECT' => 'Password reset for PROJECT XY',
 	'EMAIL_PASSWORD_RESET_CONTENT' => 'Please click on this link to reset your password: ',
 	'EMAIL_VERIFICATION_URL' => 'register/verify',
-	'EMAIL_VERIFICATION_FROM_EMAIL' => 'admin@chywawa.com',
-	'EMAIL_VERIFICATION_FROM_NAME' => 'ChyWaWa',
+	'EMAIL_VERIFICATION_FROM_EMAIL' => 'brand name',
+	'EMAIL_VERIFICATION_FROM_NAME' => 'brand name',
 	'EMAIL_VERIFICATION_SUBJECT' => 'Account activation',
 	'EMAIL_VERIFICATION_CONTENT' => 'Please click on this link to activate your account: ',
 );
