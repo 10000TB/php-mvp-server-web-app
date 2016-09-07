@@ -1,7 +1,10 @@
 <snippet>
   <content>
 # WaWa
-PHP Web App with video uploading,user management system, video categories listings features 
+MVC PHP Web App with video uploading,user management system, video categories listings features <br>
+- mysql stores users data, with some help from redis implement:  example.com/username to access user profile page<br>
+- heavily used redis to store videos listing data and video meta data<br>
+- <br>
 ## Installation
 1. Download the file (direct download, git clone)
 2. Specify the Web Server root dir as the path to the location of this project in your server
