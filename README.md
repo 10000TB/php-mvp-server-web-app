@@ -8,18 +8,6 @@ MVC PHP Web App with video uploading,user management system, video categories li
 - youtube like video url  example.com/play?v=videoId (currently md5 hash) (recommend using hashId to generate youtube like hash from number)
 - video recommendation for each video (Hadoop MapReduce generate top 40 recommendation based on the similarity of videos)
 
-Core app:
--- application 
-  - config
-    -application.ini
-    -config.development.php
-    -texts.php
-  - controller
-    -AdminController.php
-    ...
--- Views
-   ...
-   
    
 ## Installation
 1. Download the file (direct download, git clone)
