@@ -1,6 +1,9 @@
 <snippet>
   <content>
 # ChyWaWa
+
+author: 10000TB
+
 MVC PHP Web App with video uploading,user management system, video categories listings features <br>
 - mysql stores users data, with some help from redis implement:  example.com/username to access user profile page<br>
 - heavily used redis to store videos listing data and video meta data<br>
