@@ -20,10 +20,12 @@ MVC PHP Web App with video uploading,user management system, video categories li
 3. Set up mySql Database(change the credentials of the mysql connecton in Config.Development.php)
 4. Set up Redis in your server
 5. The app should now available at localhost
-⋅⋅⋅distributed version: 
-⋅⋅⋅a) PHP session is handled by redis, u can dedicate session store in one redis, or among multiple redis instances.
-⋅⋅⋅b) Services can be separated from WWW files, and static contents, intially, an easy way from one server to multiple server is duplciate all files, and use differnet parts as to which server it represents:
-        
+
+  `distributed version:` 
+  
+  a) PHP session is handled by redis, u can dedicate session store in one redis, or among multiple redis instances.
+  b) Services can be separated from WWW files, and static contents, intially, an easy way from one server to multiple server is duplciate all files, and use differnet parts as to which server it represents:
+        
 
 
 ## Usage
