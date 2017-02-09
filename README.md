@@ -36,7 +36,7 @@ MVC PHP Web App with video uploading,user management system, video categories li
 
   `distributed version:` 
   
-  a) PHP session is handled by redis, u can dedicate session store in one redis, or among multiple redis instances.
+  a) PHP session is handled by redis, u can dedicate session store in one redis, or among multiple redis instances. take a look of this [link](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-redis-server-as-a-session-handler-for-php-on-ubuntu-14-04) on how to set up redis to handle php session with Redis
   
   b) Services can be separated from WWW files, and static contents, intially, an easy way from one server to multiple server is duplciate all files, and use differnet parts as to which server it represents: for services server, trim the code so that it only contains the services code so that it can answers the services request.
   
