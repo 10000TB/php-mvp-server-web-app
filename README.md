@@ -42,7 +42,7 @@ MVC PHP Web App with video uploading,user management system, video categories li
   b) Services can be separated from WWW files, and static contents, intially, an easy way from one server to multiple server is duplciate all files, and use differnet parts as to which server it represents: for services server, trim the code so that it only contains the services code so that it can answers the services request.
   
 ##Web Structure  
-    
+TODO: Write more details&thoughts occured to me during the development. 
     
     
 
