@@ -63,3 +63,6 @@ TODO: Write license
 </content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
+
+##Credit
+I first start by learning a repo [HUGE](https://github.com/panique/huge) about PHP MVC, and then build my application, and extends functionalities on top of that.
