@@ -4,11 +4,14 @@
 by [10000TB](https://github.com/10000TB)
 
 ## updates: 
-1. latest version has adopted youtube like hashID, dictionary base include a-zA-Z and '_','&' 
+1. latest version has adopted youtube like hashID, dictionary base includes a-zA-Z and '_','&' 
 2. latest version has extend the original single-server-do-everything to multiple servers to resolve single point of failure
     2.1 there are three WWW servers, with three dupplicate copy of WWW files
+    
     2.2 original local PHP session store has been migrated to using Redis 
-    2.3 static files
+    
+    2.3 static files moved to a dedicated host 
+    
     2.4 short URL services added, like 'youtu.be/..' url to link to page 'youtube.com/..' (current implementation is just a redirect)
     
 ## Intro
