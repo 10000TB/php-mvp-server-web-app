@@ -13,7 +13,8 @@ by [10000TB](https://github.com/10000TB)
     2.3 static files moved to a dedicated host 
     
     2.4 short URL services added, like 'youtu.be/..' url to link to page 'youtube.com/..' (current implementation is just a redirect)
-    
+
+
 ## Intro
 MVC PHP Web App with video uploading,user management system, video categories listings features <br>
 - mysql stores users data, with some help from redis implement:  example.com/username to access user profile page<br>
@@ -39,9 +40,10 @@ MVC PHP Web App with video uploading,user management system, video categories li
   
   b) Services can be separated from WWW files, and static contents, intially, an easy way from one server to multiple server is duplciate all files, and use differnet parts as to which server it represents: for services server, trim the code so that it only contains the services code so that it can answers the services request.
   
-  
-        
-
+##Web Structure  
+    
+    
+    
 
 ## Usage
 TODO: Write usage instructions
